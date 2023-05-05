@@ -11,3 +11,8 @@ let arr = string.split(" ");
   return arr;
 
 }
+//or
+
+function stringToArray(string){
+  return string.split(' ');
+}
