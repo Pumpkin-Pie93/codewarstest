@@ -10,3 +10,8 @@ function spEng(sentence){
 let str = sentence.toLowerCase(); 
 return (str.includes('english'))? true: false;
 }
+ // or 
+ 
+ function spEng(sentence){
+return sentence.toLowerCase().includes('english');
+}
