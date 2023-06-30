@@ -15,3 +15,4 @@ sum = a + b;
 }
 
 >=================
+const addBinary = (a, b) => (a + b).toString(2);
